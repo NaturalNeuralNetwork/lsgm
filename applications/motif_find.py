@@ -221,7 +221,8 @@ if __name__ == "__main__":
 
             accuracies.append(accuracy_measure);
 
-            print("Completed %s iteration, obtained overall spearman score %f ... "%(iteration_name,accuracy_measure));
+            if iterator == 1:
+                print("Completed validation iteration, obtained overall spearman score %f ... "%(accuracy_measure));
 
         print("Completed epoch %d"%(j));
 
