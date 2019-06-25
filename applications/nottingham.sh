@@ -19,7 +19,7 @@ python ml_train_music.py \
     --num_dense_units 512 \
     --clip_gradients \
     --entropy_regularizer \
-    --heating_iterations 10 \
+    --heating_iterations 20 \
     --cooling_iterations 0 \
     --activation relu \
     --cuda \
